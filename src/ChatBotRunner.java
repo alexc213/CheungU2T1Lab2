@@ -18,7 +18,10 @@ public class ChatBotRunner {
         int num = scan.nextInt();
         bot1.favoriteNumber(num);
 
-        System.out.println();
+        System.out.println("Check out what else I can do! I can convert feet to meters! Give it a shot!");
+        int feet = scan.nextInt();
+        scan.nextLine();
+        System.out.println("That is " + bot1.convertFeetToMeters(feet) + " meters");
 
         System.out.println(bot1.goodbye());
     }
