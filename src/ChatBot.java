@@ -44,5 +44,13 @@ public class ChatBot {
     public String goodbye() {
         return "It was nice talking with you! Have a great day! Sincerely, " + name;
     }
+
+    public void favoriteFood(String food){
+        System.out.println("Wow I have never tried " + food + " ,but that is probably because I am a robot.");
+    }
+
+    public double calculateInches(double feet){
+        return feet*12;
+    }
 }
 
